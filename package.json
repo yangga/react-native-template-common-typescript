@@ -1,0 +1,30 @@
+  
+{
+  "name": "react-native-template-common-typescript",
+  "version": "36.0.0",
+  "description": "Common spec React Native (expo) template for a quick start with TypeScript.",
+  "scripts": {
+    "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
+  },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangga/react-native-template-common-typescript.git"
+  },
+  "keywords": [
+    "react-native",
+    "typescript",
+    "jest",
+    "template",
+    "boilerplate"
+  ],
+  "author": "Jake Yang <yangga0070@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangga/react-native-common-template-typescript/issues"
+  },
+  "homepage": "https://github.com/yangga/react-native-template-common-typescript#readme"
+}

@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  HelloWorld
+
+  Created by Jake Yang on 2019/12/13.
+  Copyright © 2019 Facebook. All rights reserved.
+*/
+"CFBundleDisplayName"="앱이름바꿔주세요";

@@ -31,6 +31,15 @@ npx react-native init MyApp --template react-native-template-common-typescript
 
 n/a
 
+## :arrow_forward: Supports
+
+- Splash screen
+- Multi language
+- Main frame - 2 Popular layout styles : [DrawNavigation, BottomTabbarNavigation]
+- redux - with react-context
+
+[> detail](template/README.md)
+
 ## :computer: Contributing
 
 Contributions are very welcome. Please check out the [contributing document](CONTRIBUTING.md).

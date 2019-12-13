@@ -1,14 +1,11 @@
-import RBC from "redux-by-context";
+import reduxInitialize from "redux-by-context";
 
+import { actionCreator } from "./actions";
 import { initialState, reducer } from "./reducer";
-import actionCreator from "./actions";
 
-const { Context: Context, Provider: Provider, useConsumer: Consumer } = RBC({
-  contextName: "ctx", // You can change the name of context
+export const { Provider, useRedux } = reduxInitialize({
   actionCreator: actionCreator,
   reducer,
   initialState,
   traceState: false
 });
-
-export { Context, Provider, Consumer };

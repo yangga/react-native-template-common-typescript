@@ -1,32 +1,25 @@
+import { DefaultReducerAction } from "redux-by-context";
 import * as types from "./types";
 
 export class State {
-  list: Array<any>;
-}
-
-export interface ReducerAction {
-  type: string;
-  data: any;
+  list: Array<number> = [];
 }
 
 // the state at the beginning
 const initialState = new State();
 
 // add codes here for changing state
-const reducer = (state = initialState, action: ReducerAction) => {
+const reducer = (prevState = initialState, action: DefaultReducerAction) => {
   switch (action.type) {
     case types.SET_DATA:
-      {
-        const {
-          data: { list }
-        } = action;
+      const {
+        data: { list }
+      } = action;
 
-        return {
-          ...state,
-          list
-        };
-      }
-      break;
+      return {
+        ...prevState,
+        list
+      };
     default:
       throw new Error("Unexpected action");
   }

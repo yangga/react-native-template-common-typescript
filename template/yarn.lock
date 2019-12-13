@@ -5955,10 +5955,10 @@ realpath-native@^1.1.0:
   dependencies:
     util.promisify "^1.0.0"
 
-redux-by-context@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/redux-by-context/-/redux-by-context-1.0.1.tgz#b41a5aab3426a84fbd8fb8ef9222dda18d43df48"
-  integrity sha512-+MBXw91XUKk5HGUcttYUKxudgFzw0QryEQy/t2Km1qapEYPztK4xiY0NyD2U5JS7OjEqON/suR7OnntsRMGPOQ==
+redux-by-context@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/redux-by-context/-/redux-by-context-1.0.3.tgz#74706b750032de445c8e95610d6faafe2c732447"
+  integrity sha512-MJ5U29hZBUCRpJvVAIoWfpxHovpTXoiP5yBjgei7PkysukPsAuF2/PdIVJMR4ZVR10sLnOPvAMb2rVLEx7DdUQ==
 
 regenerate-unicode-properties@^8.1.0:
   version "8.1.0"

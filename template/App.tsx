@@ -1,10 +1,14 @@
 import React from "react";
 import AppNavigator from "navigator/AppNavigator";
 
+import { Provider } from "flow";
+
 export default function App() {
   return (
     <>
-      <AppNavigator />
+      <Provider>
+        <AppNavigator />
+      </Provider>
     </>
   );
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Linking, StyleSheet } from "react-native";
 import {
   Body,
@@ -10,13 +10,19 @@ import {
   Left,
   Right,
   Text,
-  Title,
-  View
+  Title
 } from "native-base";
 import { useNavigation } from "react-navigation-hooks";
+import { useRedux } from "flow";
 
 export default (props: any) => {
   const { openDrawer } = useNavigation();
+
+  const [flowState, flowAction] = useRedux();
+  console.log("flowState", flowState);
+  useEffect(() => {
+    flowAction.fetch().then(() => {});
+  }, []);
 
   return (
     <Container style={styles.container}>

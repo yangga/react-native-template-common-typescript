@@ -1,20 +1,24 @@
-import { State, ReducerAction } from "./reducer";
+import { DefaultDispatch } from "redux-by-context";
+import { State } from "./reducer";
 import * as types from "./types";
 
-export default (state: State, dispatch: React.Dispatch<ReducerAction>) => ({
-  // sample code
-  fetch: async (param?: any) => {
-    try {
-      // do something...
+export function actionCreator(state: State, dispatch: DefaultDispatch) {
+  class ActionImpl {
+    async fetch(param?: any) {
+      try {
+        // do something...
 
-      return dispatch({
-        type: types.SET_DATA,
-        data: {
-          list: [1, 2, 3, 4, 5]
-        }
-      });
-    } catch (e) {
-      console.error(e);
+        return dispatch({
+          type: types.SET_DATA,
+          data: {
+            list: [1, 2, 3, 4, 5]
+          }
+        });
+      } catch (e) {
+        console.error(e);
+      }
     }
   }
-});
+  const ins = new ActionImpl();
+  return ins;
+}

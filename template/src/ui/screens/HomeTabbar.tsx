@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { StyleSheet } from "react-native";
 import { Container, Content, Text } from "native-base";
+import { useRedux } from "flow";
 
 export default (props: any) => {
+  const [flowState, flowAction] = useRedux();
+  console.log("flowState", flowState);
+  useEffect(() => {
+    flowAction.fetch().then(() => {});
+  }, []);
+
   return (
     <Container style={styles.container}>
       <Content contentContainerStyle={styles.contentContainer}>

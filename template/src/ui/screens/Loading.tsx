@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { Platform, StyleSheet, Text, View } from "react-native";
 import { useNavigation } from "react-navigation-hooks";
 import SplashScreen from "react-native-splash-screen";
 import localize from "localize";
 
-export default props => {
+export default (props: any) => {
   const { navigate } = useNavigation();
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => SplashScreen.hide(), 1000);
+    if (Platform.OS === "android" || Platform.OS === "ios") {
+      setTimeout(() => SplashScreen.hide(), 1000);
+    }
 
     Promise.all([
       localize.initAsync(),

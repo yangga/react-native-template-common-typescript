@@ -27,7 +27,7 @@
     "react-navigation-drawer": "^2.3.3",
     "react-navigation-hooks": "^1.1.0",
     "react-navigation-material-bottom-tabs": "^2.1.5",
-    "redux-by-context": "^1.0.0"
+    "redux-by-context": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "~7.6.0",

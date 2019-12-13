@@ -1,6 +1,7 @@
-import types from "./types";
+import { State, Dispatch } from "redux-by-context";
+import * as types from "./types";
 
-export default (state, dispatch) => ({
+export default (state: State, dispatch: Dispatch) => ({
   fetch: async (param?: any) => {
     try {
       // do something...

@@ -1,7 +1,8 @@
-import { State, Dispatch } from "redux-by-context";
+import { State, ReducerAction } from "./reducer";
 import * as types from "./types";
 
-export default (state: State, dispatch: Dispatch) => ({
+export default (state: State, dispatch: React.Dispatch<ReducerAction>) => ({
+  // sample code
   fetch: async (param?: any) => {
     try {
       // do something...

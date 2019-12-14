@@ -15,7 +15,7 @@ import {
 import { ScrollView } from "react-native-gesture-handler";
 import { useNavigation } from "react-navigation-hooks";
 
-export default props => {
+export default (props: any) => {
   const { closeDrawer } = useNavigation();
 
   return (

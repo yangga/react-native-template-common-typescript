@@ -5,6 +5,7 @@ import Loading from "screens/Loading";
 
 /** You can choose main frame here **/
 import Main from "./MainDrawNavigator";
+// import Main from "./MainStackNavigator";
 // import Main from "./MainTabbarNavigator";
 
 const AppNavigator = createSwitchNavigator(

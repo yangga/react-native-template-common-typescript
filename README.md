@@ -35,7 +35,7 @@ n/a
 
 - Splash screen
 - Multi language
-- Main frame - 2 Popular layout styles : [DrawNavigation, BottomTabbarNavigation]
+- Main frame - 3 Popular layout styles : [Left menu, Bottom tabbar, Stackable]
 - redux - with react-context
 
 [> detail](template/README.md)

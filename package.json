@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-common-typescript",
-  "version": "36.0.2",
+  "version": "36.0.3",
   "description": "Common spec React Native (expo) template for a quick start with TypeScript.",
   "scripts": {
     "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"

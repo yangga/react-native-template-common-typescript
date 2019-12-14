@@ -9,6 +9,7 @@ You can change main frame to modify 'AppNavigator.tsx'
 ```typescript
 /** You can choose main frame here **/
 import Main from "./MainDrawNavigator";
+// import Main from "./MainStackNavigator";
 // import Main from "./MainTabbarNavigator";
 ```
 

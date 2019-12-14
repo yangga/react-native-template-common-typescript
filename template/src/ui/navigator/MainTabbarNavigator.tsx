@@ -11,7 +11,7 @@ const tabBarIcon = (name: string) => ({ tintColor }: { tintColor: string }) => (
   />
 );
 
-import Home from "screens/HomeTabbar";
+import Home from "screens/Home";
 
 export default createMaterialBottomTabNavigator(
   {

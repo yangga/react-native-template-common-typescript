@@ -69,5 +69,5 @@ android/.settings/
 android/app/.classpath
 android/app/.project
 android/app/.settings/
+android/app/release/
 android/app/src/main/java/**/generated/
-

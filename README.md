@@ -10,8 +10,16 @@
 
 ## :star: Features
 
-- Elegant usage directly within the [React Native CLI](https://github.com/react-native-community/cli)
-- It supports draw-navigation or tab-navigation styles
+> It contains ['expo-template-bare-typescript'](https://github.com/expo/expo/tree/master/templates/expo-template-bare-typescript) and then,
+
+- splash screen with sample centered logo
+- multi language (also localized app name)
+- main frame - 3 Popular layout styles : [Left menu, Bottom tabbar, Stackable]
+- redux - with react-context
+- module-resolver - accessing files by absolute path
+- importing images without typescript warning - refers to 'typings' folder
+
+[> more](template/README.md)
 
 ## :arrow_forward: Usage
 
@@ -30,15 +38,6 @@ npx react-native init MyApp --template react-native-template-common-typescript
 ### `react-native@0.60.x`
 
 n/a
-
-## :arrow_forward: Supports
-
-- Splash screen
-- Multi language
-- Main frame - 3 Popular layout styles : [Left menu, Bottom tabbar, Stackable]
-- redux - with react-context
-
-[> detail](template/README.md)
 
 ## :computer: Contributing
 

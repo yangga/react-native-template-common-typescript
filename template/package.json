@@ -10,7 +10,7 @@
   "dependencies": {
     "expo": "~36.0.0",
     "i18n-js": "^3.5.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "native-base": "^2.13.8",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
